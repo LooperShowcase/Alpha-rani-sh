@@ -1,0 +1,93 @@
+
+
+h1 {color:blue ; 
+
+
+}
+
+p {color:darkcyan;
+
+
+}
+
+
+body {
+  background-color:black 
+}
+
+
+a:hover {
+  background-color: yellow;
+  font-size: 18px;
+}
+
+img {
+            width: 300px;
+            transition: width 0.5s ease;
+        }
+
+        img:hover {
+            width: 500px;
+        }
+ 
+        h1 {
+            text-align: center;
+        }
+
+        .image-container {
+      display: flex;
+      justify-content: center; /* Centers horizontally */
+      align-items: center;   /* Centers vertically */
+      height: 300px;         /* Set a height for the container */
+      border: 1px solid #ccc; /* Optional for visualization */
+      margin: 20px;          /* Optional spacing */
+    }
+
+    
+    .video-container {
+      display: flex;
+      justify-content: center; /* Centers horizontally */
+      align-items: center;   /* Centers vertically */
+      height: 300px;         /* Set a height for the container */
+      border: 1px solid #ccc; /* Optional for visualization */
+      margin: 20px;          /* Optional spacing */
+    }
+
+    body {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.8); /* Use semi-transparent background for overlay */
+  position: absolute; /* Position the navbar over the video */
+  top: 0; /* Align it to the top of the viewport */
+  width: 100%; /* Stretch it across the width of the page */
+  z-index: 1; /* Ensure it appears above the video */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-around; /* Distribute items evenly */
+}
+
+  
+  #nav {
+    float: left;
+  }
+  
+  #nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #nav a:hover {
+    background-color: #111;
+  }
+
